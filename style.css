@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px
+}
+
+header{
+
+    background-color: rgb(207,215,231);
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+
+    display: flex;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+nav ul {
+    height: 58 px;
+    display: flex;
+    justify-content: flex start;
+    align-items: center;
+
+}
+ nav ul li {
+    list-style: none;
+    padding: 0 23px;
+ }
+nav ul li a {
+
+    color: crimson;
+    text-decoration: none;
+
+}
+nav ul li a:hover{
+    font-weight: bolder;
+
+}
+.search{
+
+    display: flex;
+    align-items:center ;
+}
+.search input{
+    width: 300px;
+}
+.search input{
+
+    width: 30vw;
+    height: 27 px;
+    border-radius: 5px;
+    margin : 0 16px 0 56px;
+    padding: 0 12 px;
+}
+
+.search button{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    height: 27px;
+    width: 100px;
+    background-color: rgb(15, 62, 156);
+    border-bottom: 5px;
+
+
+}
+
+.slider{
+
+    width:80vw;
+    margin: 12 px auto;
+}
+
+.card{
+
+    max-width: 91vw;
+    margin: 37 px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card{
+
+    display: flex;
+    overflow: hidden;
+
+}
+.card-item{
+
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.card h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+
+    min-height: calc(100vh- 58px - 12vh);
+}
+footer{
+
+    height: 12vh;
+    background-color: crimson;
+    color: cyan;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-1{
+    margin: 5px 0;
+}
+
+.my-2{
+    margin:26px 0;
+}
+
+.text-center{text-align:center}
